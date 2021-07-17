@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add Customer</title>
+    </head>
+    <body>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="view.php">View Customer</a></li>
+            <li><a href="add.html">Add Customer</a></li>
+            <li><a href="history.php">History</a></li>
+           
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    
+
+        <div class="containerr">
+            <h3>Add new Customer</h3>
+          <form action="add.php" method="post">
+
+            <label for="id">Id</label>
+            <input type="text" id="id" name="id">
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Full name..">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="abc@gmail.com">
+
+            <label for="amount">Amount</label>
+            <input type="text" id="amt" name="amt" placeholder="in rupees">
+
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+    </body>
+</html>
